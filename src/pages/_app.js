@@ -7,7 +7,6 @@ import Head from "next/head";
 function App({ Component, pageProps }) {
   const { darkModeActive } = useDarkMode();
   const theme = darkModeActive ? darkTheme : lightTheme;
-
   return (
     <>
       <Head>

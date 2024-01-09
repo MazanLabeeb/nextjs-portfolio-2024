@@ -1,7 +1,8 @@
-import {ThemeProvider} from 'styled-components';
-import withDarkMode, { useDarkMode } from 'next-dark-mode';
-import { lightTheme, darkTheme } from '../themes/default';
+import { ThemeProvider } from "styled-components";
+import withDarkMode, { useDarkMode } from "next-dark-mode";
+import { lightTheme, darkTheme } from "../themes/default";
 import GlobalStyles from "../styles/globals";
+import Head from "next/head";
 
 function App({ Component, pageProps }) {
   const { darkModeActive } = useDarkMode();
@@ -9,7 +10,10 @@ function App({ Component, pageProps }) {
 
   return (
     <>
-      <ThemeProvider theme={{darkMode: darkModeActive, ...theme}}>
+      <Head>
+        <title>Mazan Labeeb</title>
+      </Head>
+      <ThemeProvider theme={{ darkMode: darkModeActive, ...theme }}>
         <GlobalStyles />
         <Component {...pageProps} />
       </ThemeProvider>

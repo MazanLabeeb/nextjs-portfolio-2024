@@ -20,7 +20,9 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
+      I've worked on various web techonologies/frameworks and languages
+      throughout my education and career. Some technologies are following, for
+      in depth knowledge please approach me via UPWORK and we shall have a chat.
     </SectionText>
     <List>
       <ListItem>
@@ -31,7 +33,8 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML, CSS, JavaScript, React, Next.js
+            Next, React/ React Native,Redux, React Query, MUI, SASS, Styled
+            Components, GraphQL etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +46,8 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            Node.js, Express.js, PHP, RestAPI, GraphQL, WebSockets, Handlebars
+            and EJS, etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -54,7 +58,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Although don't have skills in UI/UX, but I do provide services in
+            UI/UX (team) <br />
             PS, XD, Zeplin, Figma, Avocode
           </ListParagraph>
         </ListContainer>
@@ -67,7 +72,7 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            WordPress CMS, Shopify, Wix, Jira, Trello, Git, etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>

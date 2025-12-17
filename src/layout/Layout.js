@@ -5,6 +5,7 @@ import { Container } from "./LayoutStyles";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import TopNoticeBar from "../components/TopNoticeBar/TopNoticeBar";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -16,7 +17,7 @@ export const Layout = ({ children }) => {
   return (
     <Container>
       {/* add all the seo headers using nextjs */}
-
+      <TopNoticeBar />
       <Header />
       <motion.main
         initial="hidden"
